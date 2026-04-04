@@ -46,12 +46,11 @@ export default function Contact() {
             </div>
             <div className="info-item">
               <h4>Location</h4>
-              <p>Your City, Country</p>
+             
             </div>
             <div className="social-links">
               <a href="https://www.linkedin.com/in/krish-ghori-196385370" target="_blank" rel="noreferrer" className="social-link">LinkedIn</a>
               <a href="https://github.com/KrishGhori/" target="_blank" rel="noreferrer" className="social-link">GitHub</a>
-              <a href="#" className="social-link">Twitter</a>
             </div>
           </div>
 
