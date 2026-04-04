@@ -13,14 +13,14 @@ export default function Projects() {
       id: 2,
       title: 'Task Management App',
       description: 'Real-time task management system with drag-and-drop functionality',
-      tags: ['React', 'Firebase', 'Tailwind'],
+      tags: ['React', 'Mongodb', 'Tailwindcss' , 'Node.js'],
       link: '#'
     },
     {
       id: 3,
       title: 'AI Chat Application',
       description: 'Intelligent chatbot powered by machine learning algorithms',
-      tags: ['React', 'Python', 'TensorFlow'],
+      tags: ['React', 'API', 'Tailwindcss'],
       link: '#'
     },
     {
@@ -33,9 +33,9 @@ export default function Projects() {
     
     {
       id: 5,
-      title: 'Analytics Dashboard',
+      title: 'Vlog Website',
       description: 'Comprehensive analytics platform with data visualization',
-      tags: ['React', 'D3.js', 'API'],
+      tags: ['html5', 'css3', 'bootstrap' , 'js'],
       link: '#'
     }
   ];

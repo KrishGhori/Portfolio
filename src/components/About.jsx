@@ -2,9 +2,10 @@ import './About.css';
 
 export default function About() {
   const skills = [
-    { category: 'Frontend', items: ['React', 'JavaScript', 'TypeScript', 'CSS', 'Tailwind CSS'] },
-    { category: 'Backend', items: ['Node.js', 'Express', 'Python', 'MongoDB', 'PostgreSQL'] },
-    { category: 'Tools', items: ['Git', 'Docker', 'AWS', 'Vite', 'Webpack'] }
+    { category: 'Frontend', items: ['React', 'JavaScript', 'Html5' , 'CSS3', 'Tailwind CSS' , 'Bootstrap', 'JQuery'] },
+    { category: 'Backend', items: ['Node.js', 'Express', 'MongoDB'] },
+    { category: 'Tools', items: ['Git', 'Docker', 'AWS', 'Vite'] } ,  
+    { category: 'Language', items : ['c' , 'c++' , 'python' , 'SQL']}
   ];
 
   return (
@@ -14,7 +15,7 @@ export default function About() {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I'm a passionate full-stack developer with 5+ years of experience in creating 
+              I'm a passionate full-stack developer with +1 years of experience in creating 
               web applications. I love turning complex problems into simple, beautiful, and intuitive designs.
             </p>
             <p>
