@@ -4,9 +4,9 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce application with React, Node.js, and MongoDB',
-      tags: ['React', 'Node.js', 'MongoDB'],
+      title: 'Music',
+      description: 'A music web-application with React, Tailwindcss',
+      tags: ['React', 'Tailwindcss'],
       link: '#'
     },
     {
@@ -18,9 +18,9 @@ export default function Projects() {
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
-      description: 'Weather application with real-time data and beautiful visualizations',
-      tags: ['React', 'API', 'Chart.js'],
+      title: 'AI Chat Application',
+      description: 'Intelligent chatbot powered by machine learning algorithms',
+      tags: ['React', 'Python', 'TensorFlow'],
       link: '#'
     },
     {
@@ -30,15 +30,9 @@ export default function Projects() {
       tags: ['React', 'PostgreSQL', 'Express'],
       link: '#'
     },
+    
     {
       id: 5,
-      title: 'AI Chat Application',
-      description: 'Intelligent chatbot powered by machine learning algorithms',
-      tags: ['React', 'Python', 'TensorFlow'],
-      link: '#'
-    },
-    {
-      id: 6,
       title: 'Analytics Dashboard',
       description: 'Comprehensive analytics platform with data visualization',
       tags: ['React', 'D3.js', 'API'],
