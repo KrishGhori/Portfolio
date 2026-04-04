@@ -6,8 +6,8 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy; {currentYear} Your Portfolio. All rights reserved.</p>
-        <p>Designed & Built with React ⚛️</p>
+        
+        <p>Building intelligent web solutions that actually work</p>
       </div>
     </footer>
   );
