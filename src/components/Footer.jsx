@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-content">
         
-        <p>Building intelligent web solutions that actually work</p>
+        <p>Building intelligent web solutions that actually work 🎯</p>
       </div>
     </footer>
   );
