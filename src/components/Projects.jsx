@@ -12,7 +12,7 @@ export default function Projects() {
     {
       id: 2,
       title: 'Task Management App',
-      description: 'Real-time task management system with drag-and-drop functionality',
+      description: 'Real-time task management system',
       tags: ['React', 'Mongodb', 'Tailwindcss' , 'Node.js'],
       link: 'https://github.com/KrishGhori/Task_managment.git'
     },
@@ -26,7 +26,7 @@ export default function Projects() {
     {
       id: 4,
       title: 'Restaurant-Management-System',
-      description: 'Community-driven social media app with user profiles and messaging',
+      description: 'A full-stack web application for managing restaurant operations including menu handling, order processing, and user interaction. Built with React for the frontend, Node.js and Express for the backend, and MongoDB for database management.',
       tags: ['React', 'TailwindCss', 'Express', 'Node.js' , 'MongoDB'],
       link: 'https://restaurant-management-system-7h8o.vercel.app/'
     },
@@ -34,9 +34,16 @@ export default function Projects() {
     {
       id: 5,
       title: 'Vlog Website',
-      description: 'Comprehensive analytics platform with data visualization',
+      description: 'A responsive vlog website built using HTML5, CSS3, Bootstrap, and JavaScript. It features a clean UI for showcasing video content, blog-style layouts, and smooth navigation for an engaging user experience across devices.',
       tags: ['Html5', 'Css3', 'Bootstrap' , 'JS'],
       link: 'https://vlog-sable.vercel.app/'
+    } ,
+    {
+      id: 6,
+      title: 'Razorpay-UI',
+      description: 'A frontend clone of the Razorpay website built using HTML5, TailwindCSS and JavaScript. It replicates the modern UI design, responsive layout, and key interface sections to demonstrate strong frontend development and styling skills.',
+      tags: ['Html5', 'Css3', 'Bootstrap' , 'JS'],
+      link: 'https://github.com/KrishGhori/razorpay-UI.git3'
     }
   ];
 
