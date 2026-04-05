@@ -43,7 +43,7 @@ export default function Projects() {
       title: 'Razorpay-UI',
       description: 'A frontend clone of the Razorpay website built using HTML5, TailwindCSS and JavaScript. It replicates the modern UI design, responsive layout, and key interface sections to demonstrate strong frontend development and styling skills.',
       tags: ['Html5', 'Css3', 'Bootstrap' , 'JS'],
-      link: 'https://github.com/KrishGhori/razorpay-UI.git3'
+      link: 'https://github.com/KrishGhori/razorpay.git'
     }
   ];
 
