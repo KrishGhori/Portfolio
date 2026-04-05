@@ -7,36 +7,36 @@ export default function Projects() {
       title: 'Music',
       description: 'A music web-application with React, Tailwindcss',
       tags: ['React', 'Tailwindcss'],
-      link: '#'
+      link: 'https://music-player-web-mu.vercel.app/'
     },
     {
       id: 2,
       title: 'Task Management App',
       description: 'Real-time task management system with drag-and-drop functionality',
       tags: ['React', 'Mongodb', 'Tailwindcss' , 'Node.js'],
-      link: '#'
+      link: 'https://task-managment-flax-delta.vercel.app/'
     },
     {
       id: 3,
       title: 'AI Chat Application',
       description: 'Intelligent chatbot powered by machine learning algorithms',
       tags: ['React', 'API', 'Tailwindcss'],
-      link: '#'
+      link: 'https://ai-smart-chatbot.vercel.app/'
     },
     {
       id: 4,
-      title: 'Social Media Platform',
+      title: 'Restaurant-Management-System',
       description: 'Community-driven social media app with user profiles and messaging',
-      tags: ['React', 'PostgreSQL', 'Express'],
-      link: '#'
+      tags: ['React', 'TailwindCss', 'Express', 'Node.js' , 'MongoDB'],
+      link: 'https://restaurant-management-system-7h8o.vercel.app/'
     },
     
     {
       id: 5,
       title: 'Vlog Website',
       description: 'Comprehensive analytics platform with data visualization',
-      tags: ['html5', 'css3', 'bootstrap' , 'js'],
-      link: '#'
+      tags: ['Html5', 'Css3', 'Bootstrap' , 'JS'],
+      link: 'https://vlog-sable.vercel.app/'
     }
   ];
 
@@ -59,7 +59,13 @@ export default function Projects() {
                   <span key={index} className="tag">{tag}</span>
                 ))}
               </div>
-              <a href={project.link} className="project-link">
+              <a
+                href={project.link}
+                className="project-link"
+                target="_blank"
+                rel="noreferrer"
+                aria-label={`View ${project.title} project`}
+              >
                 View Project →
               </a>
             </div>

@@ -55,6 +55,13 @@
   background: radial-gradient(circle at top right, rgba(102, 126, 234, 0.12), transparent 50%);
   opacity: 0;
   transition: opacity 0.35s ease;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.project-card > * {
+  position: relative;
+  z-index: 1;
 }
 
 .project-card:hover {
