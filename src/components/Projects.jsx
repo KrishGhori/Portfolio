@@ -14,7 +14,7 @@ export default function Projects() {
       title: 'Task Management App',
       description: 'Real-time task management system',
       tags: ['React', 'Mongodb', 'Tailwindcss' , 'Node.js'],
-      link: 'https://task-managment-flax-delta.vercel.app/'
+      link: 'https://task-management-f2qb.vercel.app/'
     },
     {
       id: 3,
