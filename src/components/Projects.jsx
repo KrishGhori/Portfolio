@@ -14,7 +14,7 @@ export default function Projects() {
       title: 'Task Management App',
       description: 'Real-time task management system',
       tags: ['React', 'Mongodb', 'Tailwindcss' , 'Node.js'],
-      link: 'https://github.com/KrishGhori/Task_managment.git'
+      link: 'https://task-managment-flax-delta.vercel.app/'
     },
     {
       id: 3,
@@ -43,7 +43,7 @@ export default function Projects() {
       title: 'Study_Notion',
       description: 'Enroll in the course to gain structured knowledge, develop skills, and improve your understanding',
       tags: ['Html5', 'Css3', 'Bootstrap', 'TailwindCss' , 'JS' , 'MongoDB atlas' , 'Node.js'],
-      link: 'https://github.com/KrishGhori/razorpay.git'
+      link: 'https://study-notion-fqhl.vercel.app/'
     }
   ];
 
